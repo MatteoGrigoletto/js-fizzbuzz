@@ -27,3 +27,16 @@ div{
     border: 1px solid ;
     margin: .3rem;
 }
+.number-table{
+    background-color: rgb(228, 13, 236);
+}
+.bg-light-b{
+    background-color: rgb(20, 236, 171);
+}
+.bg-yellow{
+    background-color: rgb(236, 187, 40);
+}
+.bg-green{
+    background-color: greenyellow;
+}
+

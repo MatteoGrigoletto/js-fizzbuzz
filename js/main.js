@@ -22,10 +22,24 @@ for(let i = 1; i <=100; i++){
 //console.log per vedere il flusso dei numeri
     console.log(calcolate);
 //BONUS
+
     const numberTable = document.createElement('div');
     numberTable.classList.add('number-table');
     numberTable.innerHTML = calcolate;
     tableContainer.append(numberTable);
+
+    if(calcolate === `FrizzBuzz`){
+        numberTable.classList.add('bg-green');
+    }
+    else if(calcolate === `Buzz`){
+        numberTable.classList.add('bg-light-b');
+    }
+    else if(calcolate === `Frizz`){
+        numberTable.classList.add('bg-yellow');
+    }
+    
 }
+
+
 
 
