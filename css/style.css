@@ -3,18 +3,27 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    background-color: blueviolet;
+    color: white;
+}
 .container{
     display: flex;
     flex-wrap: wrap;
-    max-width: 700px;
+    max-width: 1000px;
     margin: auto;
 }
-
+.header-title{
+    text-align: center;
+    font-size: 20px;
+    margin: 1.25rem;
+}
 
 div{
-    width: 4rem;
-    height: 4rem;
+    width: 8rem;
+    height: 8rem;
     text-align: center;
-    line-height: 3.125rem;
+    line-height: 8rem;
+    border: 1px solid ;
+    margin: .3rem;
 }
